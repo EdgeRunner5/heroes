@@ -1,0 +1,413 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Keith Hub", "Midnight")
+local Tab = Window:NewTab("Moves")
+local Section = Tab:NewSection("Green Hero")
+Section:NewButton("Detroit", "Green Hero First move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://13135729138"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Quintuple Smash", "Mastered Green Hero First move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14367481982"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Texas", "Green Hero Third move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://13159656146"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Electric Smash", "Mastered Green Hero Second Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14458594659"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+local Section = Tab:NewSection("The Strongest")
+Section:NewButton("Fury Barrage", "The Strongest Fourth Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14959077692"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("BackHand", "The Strongest Third Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14644585337"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Blue", "The Strongest Third Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14632571578"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+local Tab = Window:NewTab("Ultimate Moves")
+local Section = Tab:NewSection("Explosion Hero")
+Section:NewButton("Exploding Star", "first ult move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16943302563"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Exploding Star Victim", "first ult move victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16943305239"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Tenth Torch", "Explosion Hero Second Awakening (a ult move)", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://18210811961"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Tenth Torch Friend", "Explosion Hero Second Awakening Friend Part", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://18210827683"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("MINE", "Explosion Hero Second Awakening First Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://18269395963"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+wait(1.3)
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18273457215"
+
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+playAnim:Stop()
+end)
+local Section = Tab:NewSection("Split Ice")
+Section:NewButton("Blazing Soul Victim", "Split Ice Fourth Ult Move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16271843131"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Blazing Soul Finisher Player", "Split Ice Fourth Ult Move Finisher Player", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16442530988"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Blazing Soul Finisher Victim", "Split Ice Fourth Ult Move Finisher Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16442524715"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Blazing Soul Player", "Split Ice Fourth Ult Move Player", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16271844564"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+local Section = Tab:NewSection("The Strongest")
+Section:NewButton("Reversal Red", "The Strongest Third ult move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://15089802934"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Unlimited Void", "The Strongest Fourth ult move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14994845626"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
