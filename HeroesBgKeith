@@ -381,13 +381,21 @@ anim.AnimationId = "rbxassetid://15089802934"
 
 local playAnim = humanoid:LoadAnimation(anim)
 playAnim:Play()
+end)
+Section:NewButton("Hollow Purple", "The Strongest Second Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
 
 
-local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://0"
-soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
-soundeffect:Play()
-soundeffect.Volume = 1
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14970719580"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
 end)
 Section:NewButton("Unlimited Void", "The Strongest Fourth ult move", function()
 local player = game.Players.LocalPlayer
@@ -410,4 +418,21 @@ soundeffect.SoundId = "rbxassetid://0"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
 soundeffect.Volume = 1
+end)
+local Tab = Window:NewTab("Ultimates")
+local Section = Tab:NewSection("Ultimates")
+Section:NewButton("The Strongest", "The Strongest Ult", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14970774596"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
 end)
